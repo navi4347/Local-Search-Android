@@ -1,0 +1,108 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'app.ntech.localsearch' // Required for AGP 8+ and Android 14 (API 34)
+
+    compileSdkVersion 34 // Recommended for Android 14 (API 34)
+    buildToolsVersion "34.0.0" // Update to match the version installed
+
+    signingConfigs {
+        release {
+            storeFile file('C:/Users/NAVEEN/Desktop/Work/LocalSearch/localsearch.jks')
+            storePassword 'ntechskills'
+            keyAlias 'local'
+            keyPassword 'ntechskills'
+        }
+    }
+
+    buildFeatures {
+        dataBinding = true  // Enable data binding
+    }
+
+    defaultConfig {
+        applicationId "app.ntech.localsearch"
+        minSdkVersion 21  // Keep the minimum SDK version
+        targetSdkVersion 34  // Match with compileSdkVersion for Android 14 (API 34)
+        versionCode 2
+        versionName "1.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled false
+            shrinkResources false
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17  // Set Java compatibility to Java 17
+        targetCompatibility JavaVersion.VERSION_17  // Set target compatibility to Java 17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'  // Set Kotlin JVM target to Java 17
+    }
+    tasks.whenTaskAdded { task ->
+        if (task.name == "mergeDebugResources") {
+            task.dependsOn "processDebugGoogleServices"
+        }
+    }
+
+    dependencies {
+
+        implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+        // Make sure to define `kotlin_version` elsewhere if not done
+        implementation 'androidx.core:core-ktx:1.10.0' // Updated to a more recent version
+        implementation 'androidx.appcompat:appcompat:1.6.0' // Updated to a more recent version
+        implementation 'com.google.android.material:material:1.8.0'
+        // Updated to a more recent version
+        implementation 'com.fasterxml.jackson.core:jackson-core:2.13.0'
+        // Updated to a more recent version
+        implementation 'com.fasterxml.jackson.core:jackson-annotations:2.13.0'
+        // Updated to a more recent version
+        implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
+        // Updated to a more recent version
+        implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+        // Updated to a more recent version
+        implementation 'com.google.firebase:firebase-database-ktx:20.1.0'
+        // Updated to a more recent version
+
+        // Test and UI dependencies
+        testImplementation 'junit:junit:4.13.2' // Updated to a more recent version
+        androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+        // Updated to a more recent version
+        androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+        // Updated to a more recent version
+
+        // Glide for loading images
+        implementation 'com.github.bumptech.glide:glide:4.14.2' // Updated to a more recent version
+        implementation 'org.jsoup:jsoup:1.15.3' // Updated to a more recent version
+
+        // Firebase BOM (no need to specify versions for Firebase libraries)
+        implementation platform('com.google.firebase:firebase-bom:31.0.2')
+        // Updated to the latest Firebase BOM version
+
+        // Firebase Authentication and Analytics
+        implementation 'com.google.firebase:firebase-auth-ktx'
+        implementation 'com.google.firebase:firebase-analytics'
+
+        // Room database
+        def room_version = "2.5.0" // Updated to a more recent version
+        implementation "androidx.room:room-runtime:$room_version"
+        kapt "androidx.room:room-compiler:$room_version"
+    }
+}

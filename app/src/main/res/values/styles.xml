@@ -1,0 +1,171 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/Drawericon</item>
+        <item name="android:listDivider">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+    </style>
+
+    <style name="AppTheme.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="hintTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.popUpOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="Widget.BottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="color">@color/white</item>
+<!--        <item name="fontFamily">@font/fs_truman</item>-->
+    </style>
+
+    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Drawericon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="Education" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Education</item>
+        <item name="colorPrimaryDark">@color/Education</item>
+    </style>
+
+    <style name="Fitness" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Fitness</item>
+        <item name="colorPrimaryDark">@color/Fitness</item>
+    </style>
+
+    <style name="Food" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Food</item>
+        <item name="colorPrimaryDark">@color/Food</item>
+    </style>
+
+    <style name="Drivers" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Drivers</item>
+        <item name="colorPrimaryDark">@color/Drivers</item>
+    </style>
+
+    <style name="Services" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Services</item>
+        <item name="colorPrimaryDark">@color/Services</item>
+    </style>
+
+    <style name="Jobs" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Jobs</item>
+        <item name="colorPrimaryDark">@color/Jobs</item>
+    </style>
+
+    <style name="Movies" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Movies</item>
+        <item name="colorPrimaryDark">@color/Movies</item>
+    </style>
+
+    <style name="Oxygen" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Oxygen</item>
+        <item name="colorPrimaryDark">@color/Oxygen</item>
+    </style>
+
+    <style name="RealEstate" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/RealEstate</item>
+        <item name="colorPrimaryDark">@color/RealEstate</item>
+    </style>
+
+    <style name="Rents" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Rents</item>
+        <item name="colorPrimaryDark">@color/Rents</item>
+    </style>
+
+    <style name="Repairs" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Repairs</item>
+        <item name="colorPrimaryDark">@color/Repairs</item>
+    </style>
+
+    <style name="Travels" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Travels</item>
+        <item name="colorPrimaryDark">@color/Travels</item>
+    </style>
+
+
+    <style name="B2B" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/B2B</item>
+        <item name="colorPrimaryDark">@color/B2B</item>
+    </style>
+
+    <style name="B2C" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/B2C</item>
+        <item name="colorPrimaryDark">@color/B2C</item>
+    </style>
+
+    <style name="C2B" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/C2B</item>
+        <item name="colorPrimaryDark">@color/C2B</item>
+    </style>
+
+    <style name="C2C" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/C2C</item>
+        <item name="colorPrimaryDark">@color/C2C</item>
+    </style>
+
+    <style name="twentyfour" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/twentyfour</item>
+        <item name="colorPrimaryDark">@color/twentyfour</item>
+    </style>
+
+    <style name="Vehicles" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Vehicles</item>
+        <item name="colorPrimaryDark">@color/Vehicles</item>
+    </style>
+
+    <style name="Agriculture" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Agriculture</item>
+        <item name="colorPrimaryDark">@color/Agriculture</item>
+    </style>
+
+    <style name="SPA" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/SPA</item>
+        <item name="colorPrimaryDark">@color/SPA</item>
+    </style>
+
+    <style name="Consultant" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Consultant</item>
+        <item name="colorPrimaryDark">@color/Consultant</item>
+    </style>
+
+    <style name="Contractor" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Contractor</item>
+        <item name="colorPrimaryDark">@color/Contractor</item>
+    </style>
+
+    <style name="Covid" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Covid</item>
+        <item name="colorPrimaryDark">@color/Covid</item>
+    </style>
+
+    <style name="Doctors" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/Doctor</item>
+        <item name="colorPrimaryDark">@color/Doctor</item>
+    </style>
+</resources>

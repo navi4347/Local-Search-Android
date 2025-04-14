@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#792aef</color>
+    <color name="colorPrimaryDark">#FFBB86FC</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="material_blue_500">#d92635</color>
+    <color name="material_blue_700">#9C1C26</color>
+    <color name="material_green_A200">#9C1C26</color>
+    <color name="color_FAABAB">#FFFAABAB</color>
+    <color name="ivory">#FFFFF0</color>
+
+    <color name="color_ff9b9b9b">#FF9B9B9B</color>
+    <color name="color_802C2A2D">#802C2A2D</color>
+    <color name="color_FF3E3D3F">#FF3E3D3F</color>
+
+    <color name="B2B">#006ee6</color>
+    <color name="B2C">#003399</color>
+    <color name="C2B">#007bff</color>
+
+    <color name="C2C">#00336b</color>
+    <color name="twentyfour">#e13429</color>
+    <color name="Vehicles">#1c3746</color>
+    <color name="Agriculture">#419c33</color>
+    <color name="SPA">#16a9c9</color>
+    <color name="Consultant">#c99a16</color>
+    <color name="Contractor">#f2e707</color>
+    <color name="Covid">#ec3211</color>
+    <color name="Doctor">#1a49a1</color>
+    <color name="Education">#4d5663</color>
+
+    <color name="Fitness">#c91e1e</color>
+    <color name="Food">#dd5e1d</color>
+    <color name="Drivers">#eb8a17</color>
+    <color name="Services">#c92d18</color>
+    <color name="Jobs">#322f33</color>
+    <color name="Movies">#af0603</color>
+    <color name="Oxygen">#ff5900</color>
+    <color name="RealEstate">#FFD700</color>
+    <color name="Rents">#bf1754</color>
+    <color name="Repairs">#1056e3</color>
+    <color name="Travels">#ffa600</color>
+
+</resources>

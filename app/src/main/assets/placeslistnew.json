@@ -1,0 +1,497 @@
+{
+  "Masterdata": [
+    {
+      "States": "Andhra Pradesh",
+      "State_Icon": "andhra",
+      "States_List": [
+        {
+          "Dist_name": "Anantapur",
+          "Dist_List": [
+            "Rayadurg",
+            "Uravakonda",
+            "Guntakal",
+            "Tadipatri",
+            "Singanamala",
+            "Anantapur Urban",
+            "Kalyandurg",
+            "Raptadu",
+            "Madakasira",
+            "Hindupur",
+            "Penukonda",
+            "Puttaparthi",
+            "Dharmavaram",
+            "Kadiri"
+          ]
+        },
+        {
+          "Dist_name": "Chittoor",
+          "Dist_List": [
+            "Thamballapalle",
+            "Pileru",
+            "Madanapalle",
+            "Punganur",
+            "Chandragiri",
+            "Tirupati",
+            "Srikalahasti",
+            "Sathayavedu",
+            "Nagari",
+            "Gangadhara Nellore",
+            "Chittoor",
+            "Puthalapattu",
+            "Palamaner",
+            "Kuppam"
+          ]
+        },
+        {
+          "Dist_name": "East Godavari",
+          "Dist_List": [
+            "Tuni",
+            "Prathipadu",
+            "Kakinada Rural",
+            "Peddapuram",
+            "Anaparthy",
+            "Kakinada City",
+            "Ramachandrapuram",
+            "Mummidivaram",
+            "Amalapuram",
+            "Razole",
+            "Gannavaram",
+            "Kothapeta",
+            "Mandapeta",
+            "Rajanagram",
+            "Rajahmundry City",
+            "Rajahmundry Rural",
+            "Jaggampeta",
+            "Ramapachodavaram"
+          ]
+        },
+        {
+          "Dist_name": "Guntur",
+          "Dist_List": [
+            "Pedakurapadu",
+            "Tadikonda",
+            "Ponnuru",
+            "Vemuru",
+            "Repalle",
+            "Tenali",
+            "Bapatla",
+            "Prathipadu",
+            "Guntur West",
+            "Guntur East",
+            "Chilakaluripet",
+            "Narasaraopet",
+            "Sattenapalle",
+            "Vinukonda",
+            "Gurajala",
+            "macherla"
+          ]
+        },
+        {
+          "Dist_name": "Kadapa",
+          "Dist_List": [
+            "Badvel",
+            "Rajampet",
+            "Kadapa",
+            "Kodur",
+            "Rayachoti",
+            "Pulivendla",
+            "Kamalapuram",
+            "Jammalamadugu",
+            "proddatur",
+            "Mydukur"
+          ]
+        },
+        {
+          "Dist_name": "Krishna",
+          "Dist_List": [
+            "Tiruvuru",
+            "Nuzvid",
+            "Gannavaram",
+            "Gudivada",
+            "Kaikalur",
+            "Pedana",
+            "Machilipatnam",
+            "Avanigadda",
+            "Pamarru",
+            "Penamaluru",
+            "Vijayawada West",
+            "Vijayawada Central",
+            "Vijayawada East",
+            "Mylavaram",
+            "Nandigama",
+            "Jaggayyapeta"
+          ]
+        },
+        {
+          "Dist_name": "Kurnool",
+          "Dist_List": [
+            "Allagadda",
+            "Srisailam",
+            "Nandikotkur",
+            "Kurnool",
+            "Panyam",
+            "Nandyal",
+            "Banaganapalle",
+            "Dhone",
+            "Pattikonda",
+            "Kodumur",
+            "Yemmiganur",
+            "Mantralayam",
+            "Adoni",
+            "Alur"
+          ]
+        },
+        {
+          "Dist_name": "Nellore",
+          "Dist_List": [
+            "Kavali",
+            "Atmakur",
+            "Kovur",
+            "Nellore City",
+            "Nellore Rural",
+            "Sarvepalli",
+            "Gudur",
+            "Sullurpeta",
+            "Venkatagiri",
+            "Udayagiri"
+          ]
+        },
+        {
+          "Dist_name": "Prakasam",
+          "Dist_List": [
+            "YerragondaPalem",
+            "Darsi",
+            "Parchur",
+            "Addanki",
+            "Chirala",
+            "Santhanuthalapadu",
+            "Ongole",
+            "Kandukur",
+            "Kondapi",
+            "Markapuram",
+            "Giddalur",
+            "Kanigiri"
+          ]
+        },
+        {
+          "Dist_name": "Srikakulam",
+          "Dist_List": [
+            "Ichchapuram",
+            "Palasa",
+            "Tekkali",
+            "Pathapatnam",
+            "srikakulam",
+            "Amadalavalasa",
+            "Etcheria",
+            "Narasannapeta",
+            "Rajam",
+            "Palakonda"
+          ]
+        },
+        {
+          "Dist_name": "Visakhapatnam",
+          "Dist_List": [
+            "Bhimili",
+            "Visakhapatnam East",
+            "Visakhapatnam South",
+            "Visakhapatnam North",
+            "Visakhapatnam West",
+            "Gajuwaka",
+            "Chodavaram",
+            "Madugula",
+            "Araku valley",
+            "Paderu",
+            "Anakapalle",
+            "Pendurthi",
+            "Elamanchili",
+            "Payakaraopet",
+            "Narsipatnam"
+          ]
+        },
+        {
+          "Dist_name": "Vizianagaram",
+          "Dist_List": [
+            "Kurupam",
+            "Parvathipuram",
+            "Salur",
+            "Bobbili",
+            "Cheepurupalli",
+            "Gajapathunagaram",
+            "Nellimarla",
+            "Vizianagaram",
+            "Srungavarapukota"
+          ]
+        }
+      ]
+    },
+    {
+      "States": "Telangana",
+      "State_Icon": "hyd",
+      "States_List": [
+        {
+          "Dist_name": "Adilabad",
+          "Dist_List": [
+            "Adilabad",
+            "Boath"
+          ]
+        },
+        {
+          "Dist_name": "Bhadradri Kothagudem",
+          "Dist_List": [
+            "Pinapaka",
+            "Yellandu",
+            "Bhadrachalam",
+            "Kothagudem",
+            "Aswaraopet"
+          ]
+        },
+        {
+          "Dist_name": "Hyderabad",
+          "Dist_List": [
+            "Malakpet",
+            "Amberpet",
+            "Musheerabad",
+            "Khairatabad",
+            "Jubileehills",
+            "Sanathnagar",
+            "Nampally",
+            "Karwan",
+            "Goshamahal",
+            "Charminar",
+            "Chandrayangutta",
+            "Yukutpura",
+            "Bahadurpura",
+            "Secunderabad",
+            "Secunderabad(Cantonment)"
+          ]
+        },
+        {
+          "Dist_name": "Jagtial",
+          "Dist_List": [
+            "Koratla",
+            "Jagtial",
+            "Dharmapuri(SC)"
+          ]
+        },
+        {
+          "Dist_name": "Jangaon",
+          "Dist_List": [
+            "Jangaon",
+            "Ghanpur(Station)",
+            "Palakurthi"
+          ]
+        },
+        {
+          "Dist_name": "Jayashankar Bhupalpally",
+          "Dist_List": [
+            "Mulug",
+            "Bhupalpally"
+          ]
+        },
+        {
+          "Dist_name": "Jogulamba Gadwal",
+          "Dist_List": [
+            "Gadwal",
+            "Alampur"
+          ]
+        },
+        {
+          "Dist_name": "Kamareddy",
+          "Dist_List": [
+            "Jukkal(SC)",
+            "Banswada",
+            "Yellareddy",
+            "Kamareddy"
+          ]
+        },
+        {
+          "Dist_name": "Karimnagar",
+          "Dist_List": [
+            "Karimnagar",
+            "Choppadandi (SC)",
+            "Manakondur(SC)",
+            "Huzurabad"
+          ]
+        },
+        {
+          "Dist_name": "Khammam",
+          "Dist_List": [
+            "Palair",
+            "Madhira",
+            "Wyra",
+            "Sathupally",
+            "Khammam"
+          ]
+        },
+        {
+          "Dist_name": "Kumuram Bheem",
+          "Dist_List": [
+            "Sirpur",
+            "Asifabad"
+          ]
+        },
+        {
+          "Dist_name": "Mahabubabad",
+          "Dist_List": [
+            "Dornakal",
+            "Mahabubabad"
+          ]
+        },
+        {
+          "Dist_name": "Mahabubnagar",
+          "Dist_List": [
+            "Mahbubnagar",
+            "Narayanpet",
+            "Judcherla",
+            "Devarakadra",
+            "Makthal"
+          ]
+        },
+        {
+          "Dist_name": "Mancherial",
+          "Dist_List": [
+            "Chennur",
+            "Bellampalli",
+            "Mancherial"
+          ]
+        },
+        {
+          "Dist_name": "Medak",
+          "Dist_List": [
+            "Medak",
+            "Patancheru"
+          ]
+        },
+        {
+          "Dist_name": "Medchal-Malkajgiri",
+          "Dist_List": [
+            "Malkajgiri",
+            "Medchal",
+            "Quthballapur",
+            "Kukatpally",
+            "Uppal"
+          ]
+        },
+        {
+          "Dist_name": "Nagarkurnool",
+          "Dist_List": [
+            "NagarKurnool",
+            "Achampet",
+            "Kalwakurthy",
+            "Kollapur"
+          ]
+        },
+        {
+          "Dist_name": "Nirmal",
+          "Dist_List": [
+            "Khanapur",
+            "Nirmal",
+            "Mudhole"
+          ]
+        },
+        {
+          "Dist_name": "Nizamabad",
+          "Dist_List": [
+            "Bodhan",
+            "Nizamabad(Urban)",
+            "Nizamabad(Rural)",
+            "Balkonda",
+            "Armoor"
+          ]
+        },
+        {
+          "Dist_name": "Peddapalli",
+          "Dist_List": [
+            "Ramagundam",
+            "Manthani",
+            "Peddapalli"
+          ]
+        },
+        {
+          "Dist_name": "Rajanna Sircilla",
+          "Dist_List": [
+            "Vemulawada",
+            "Sircilla"
+          ]
+        },
+        {
+          "Dist_name": "Rangareddy",
+          "Dist_List": [
+            "Ibrahimpatanam",
+            "Lal Bahadur Nagar (L.B. Nagar)",
+            "Maheshwaram",
+            "Rajendranagar",
+            "Serilingampally",
+            "Chevella",
+            "Shadnagar"
+          ]
+        },
+        {
+          "Dist_name": "Sangareddy",
+          "Dist_List": [
+            "Narayankhed",
+            "Andole",
+            "Narsapur",
+            "Zahirabad",
+            "Sangareddy"
+          ]
+        },
+        {
+          "Dist_name": "Siddipet",
+          "Dist_List": [
+            "Siddipet",
+            "Husnanad",
+            "Dubbak",
+            "Gajwal"
+          ]
+        },
+        {
+          "Dist_name": "Suryapet",
+          "Dist_List": [
+            "Huzurnagar",
+            "Kodad",
+            "Suryapet",
+            "Thungathurthi"
+          ]
+        },
+        {
+          "Dist_name": "Vikarabad",
+          "Dist_List": [
+            "Pargi",
+            "Vikarabad",
+            "Tandur",
+            "Kodangal"
+          ]
+        },
+        {
+          "Dist_name": "Wanaparthy",
+          "Dist_List": [
+            "Wanaparthy"
+          ]
+        },
+        {
+          "Dist_name": "Warangal (Rural)",
+          "Dist_List": [
+            "Narsampet",
+            "Parkal",
+            "Wardhannapet"
+          ]
+        },
+        {
+          "Dist_name": "Warangal (Urban)",
+          "Dist_List": [
+            "Warangal West",
+            "Warangal(East)"
+          ]
+        },
+        {
+          "Dist_name": "Yadadri Bhuvanagiri",
+          "Dist_List": [
+            "Alair",
+            "Bhongir"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+    "categorylist": [
+      {
+        "name": "B2B",
+        "icon": "b2b"
+      },
+      {
+        "name": "B2C",
+        "icon": "b2c"
+      },
+      {
+        "name": "C2B",
+        "icon": "c2b"
+      },
+      {
+        "name": "C2C",
+        "icon": "c2c"
+      },
+      {
+        "name": "24/7",
+        "icon": "hours"
+      },
+      {
+        "name": "Vehicles",
+        "icon": "automobile"
+      },
+      {
+        "name": "Agriculture",
+        "icon": "gardening"
+      },
+      {
+        "name": "SPA",
+        "icon": "beautyspa"
+      },
+      {
+        "name": "Consultant",
+        "icon": "consultants"
+      },
+      {
+        "name": "Contractor",
+        "icon": "contractors"
+      },
+      {
+        "name": "Covid",
+        "icon": "covid"
+      },
+      {
+        "name": "Doctors",
+        "icon": "doctors"
+      },
+      {
+        "name": "Education",
+        "icon": "education"
+      },
+      {
+        "name": "Fitness",
+        "icon": "fitness"
+      },
+      {
+        "name": "Food",
+        "icon": "food"
+      },
+      {
+        "name": "Drivers",
+        "icon": "taxidriver"
+      },
+      {
+        "name": "Services",
+        "icon": "services"
+      },
+      {
+        "name": "Insurance",
+        "icon": "insurance"
+      },
+      {
+        "name": "Jobs",
+        "icon": "jobs"
+      },
+      {
+        "name": "Movies",
+        "icon": "movietheater"
+      },
+      {
+        "name": "Oxygen",
+        "icon": "oxygenmask"
+      },
+      {
+        "name": "Real Estate",
+        "icon": "realestate"
+      },
+      {
+        "name": "Rents",
+        "icon": "rent"
+      },
+      {
+        "name": "Repairs",
+        "icon": "repair"
+      },
+      {
+        "name": "Supermarket",
+        "icon": "supermarket"
+      },
+      {
+        "name": "Travels",
+        "icon": "travels"
+      },
+      {
+        "name": "Trainers",
+        "icon": "trainers"
+      },
+      {
+        "name": "Tutorials",
+        "icon": "tutorials"
+      }
+    ]
+
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "749140963097",
+    "firebase_url": "https://localsearch-dc23e-default-rtdb.firebaseio.com",
+    "project_id": "localsearch-dc23e",
+    "storage_bucket": "localsearch-dc23e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749140963097:android:9e17132688f89a3b2edf88",
+        "android_client_info": {
+          "package_name": "app.ntech.localsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749140963097-u896t2aq10dinadhiu88b95juharvju5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRBxlJkUyLTo6d1dl4c9ySZdnHOstnvu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749140963097-u896t2aq10dinadhiu88b95juharvju5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
