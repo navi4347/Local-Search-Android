@@ -42,7 +42,7 @@ class MovieTheaterFrag : Fragment(){
         }else{
             mbinding.txtnodatafound.visibility = View.VISIBLE
             mbinding.rvmovielist.visibility = View.GONE
-            Toast.makeText(requireActivity(),"No Data Found", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(requireActivity(),"No Data Found", Toast.LENGTH_SHORT).show()
         }
 
         return mbinding.root
