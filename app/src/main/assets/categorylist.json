@@ -41,10 +41,6 @@
         "icon": "contractors"
       },
       {
-        "name": "Covid",
-        "icon": "covid"
-      },
-      {
         "name": "Doctors",
         "icon": "doctors"
       },
@@ -79,10 +75,6 @@
       {
         "name": "Movies",
         "icon": "movietheater"
-      },
-      {
-        "name": "Oxygen",
-        "icon": "oxygenmask"
       },
       {
         "name": "Real Estate",

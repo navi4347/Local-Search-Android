@@ -152,24 +152,30 @@ class DetailpageAdapter(var activity: Activity, val list: List<UserEntity>?, var
             activity.startActivity(shareIntent)
         }
 
-        if(!list?.get(position)?.GoogleMaps.equals("null")){
+        if (!list?.get(position)?.GoogleMaps.equals("null")) {
             holder.locamap?.visibility = View.VISIBLE
-        }else{
+        } else {
             holder.locamap?.visibility = View.GONE
         }
-//        var strmap : String = "https://www.google.com/maps/place/Nagalamma+temple/@13.6446297,79.4338532,16z/data=!4m12!1m6!3m5!1s0x3a4d4ba1419c2225:0xe9bc8c6cb0049519!2sleelamahal+center!8m2!3d13.6231391!4d79.4298165!3m4!1s0x3a4d4bf112b99a1f:0xd0c99351f394e7b!8m2!3d13.6460572!4d79.4324166"
+
         holder.locamap?.setOnClickListener {
-            // Create a Uri from an intent string. Use the result to create an Intent.
-            val gmmIntentUri = Uri.parse(list?.get(position)?.GoogleMaps?.toString())
+            val locationUrl = list?.get(position)?.GoogleMaps
 
-            // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
-            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-            // Make the Intent explicit by setting the Google Maps package
-            mapIntent.setPackage("com.google.android.apps.maps")
-            // Attempt to start an activity that can handle the Intent
-            activity.startActivity(mapIntent)
+            if (!locationUrl.isNullOrEmpty() && locationUrl != "null") {
+                val gmmIntentUri = Uri.parse(locationUrl)
+                val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+                mapIntent.setPackage("com.google.android.apps.maps")
+                activity.startActivity(mapIntent)
+            } else {
+                val toast = Toast.makeText(activity, "Location not available", Toast.LENGTH_LONG)
+                toast.show()
 
+                // Extend toast to 5 seconds manually
+                android.os.Handler().postDelayed({ toast.cancel() }, 1000)
+            }
         }
+
+
         if(!list?.get(position)?.Email.equals("")) {
             holder.txtemail?.setText("Email: " + list?.get(position)?.Email.toString())
         }else{
