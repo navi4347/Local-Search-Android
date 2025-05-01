@@ -6,14 +6,14 @@ plugins {
 }
 
 android {
-    namespace 'app.ntech.localsearch' // Required for AGP 8+ and Android 14 (API 34)
+    namespace 'app.ntech.localsearch'
 
-    compileSdkVersion 34 // Recommended for Android 14 (API 34)
-    buildToolsVersion "34.0.0" // Update to match the version installed
+    compileSdk = 34
+
 
     signingConfigs {
         release {
-            storeFile file('C:/Users/NAVEEN/Desktop/Work/LocalSearch/localsearch.jks')
+            storeFile file('C:/Users/NAVEEN/Desktop/Work/LocalSearch/app/localsearch.jks')
             storePassword 'ntechskills'
             keyAlias 'local'
             keyPassword 'ntechskills'
@@ -26,9 +26,9 @@ android {
 
     defaultConfig {
         applicationId "app.ntech.localsearch"
-        minSdkVersion 21  // Keep the minimum SDK version
-        targetSdkVersion 34  // Match with compileSdkVersion for Android 14 (API 34)
-        versionCode 4
+        minSdk  21
+        targetSdk  34
+        versionCode 5
         versionName "1.4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -41,6 +41,7 @@ android {
             shrinkResources false
             zipAlignEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
         debug {
             debuggable true

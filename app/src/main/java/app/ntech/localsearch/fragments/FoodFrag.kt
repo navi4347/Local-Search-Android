@@ -43,7 +43,7 @@ class FoodFrag : Fragment() {
         }else{
             mbinding.txtnodatafound.visibility = View.VISIBLE
             mbinding.rvfoodlist.visibility = View.GONE
-            Toast.makeText(requireActivity(),"No Data Found", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(requireActivity(),"No Data Found", Toast.LENGTH_SHORT).show()
         }
 
         return mbinding.root

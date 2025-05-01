@@ -182,7 +182,7 @@ class DetailPage :AppCompatActivity() {
         }else{
             mbinding.txtnodatafound.visibility = View.VISIBLE
             mbinding.detailslist.visibility = View.GONE
-            Toast.makeText(this,"No Data Found",Toast.LENGTH_SHORT).show()
+//            Toast.makeText(this,"No Data Found",Toast.LENGTH_SHORT).show()
         }
 
         mbinding.imBack.setOnClickListener {
